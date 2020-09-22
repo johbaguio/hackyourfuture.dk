@@ -688,5 +688,46 @@
     "status": "looking for jobs",
     "graduationDate": "14-01-2018",
     "lastUpdateDate": "01-09-2020"    
+  },
+  {
+    "id": 34,
+    "roles": ["alumni"],
+    "name": "John Alyazji",
+    "email": "john.yazji@gmail.com",
+    "photo": "/static/alumni/photos/John.jpeg",
+    "github": "https://github.com/JohnYazji",
+    "linkedin": "https://www.linkedin.com/in/john-alyazji/",
+    "pdfCV": "/static/alumni/cv/JohnAlyazji.pdf",
+    "skills": [
+      "JS",
+      "React",
+      "Node.js",
+      "Knex.js",
+      "Express.js",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Swagger",
+      "Storybook",
+      "Git"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "08-07-2020",
+    "lastUpdateDate": "05-09-2020" 
+  },
+  {
+    "id": 34,
+    "roles": ["alumni"],
+    "name": "Mohammad Alshoker",
+    "email": "myshuker@gmail.com",
+    "photo": "/static/alumni/photos/mohammad.jpg",
+    "github": "https://github.com/myshuker",
+    "onlineCV": "/static/alumni/cv/mohammad.pdf",
+    "linkedin": "https://www.linkedin.com/in/mohammad-alshoker-365376b8/",
+    "skills": ["JS","React","Node.js","Git","Knex.js","Express.js","MySQL","HTML","CSS","MogoDB","SASS","Heroku","Figma","PLC Programming","Swagger"],
+    "status": "looking for jobs",
+    "graduationDate": "08-07-2020",
+    "lastUpdateDate": "07-09-2020" 
   }
+  
 ]
