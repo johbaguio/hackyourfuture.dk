@@ -20,7 +20,7 @@ const useStyles = makeStyles(() => ({
 
 export default function faq() {
   const classes = useStyles()
-  const { content: questions } = useContentfulLinkedContent('list', '1AZtQRmVOBk07MNVafzrrg')
+  const { content: questions } = useContentfulLinkedContent('list', '64KfjkPUfxgRzZU3AAj42L')
 
   return (
     <React.Fragment>

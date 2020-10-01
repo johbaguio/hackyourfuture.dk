@@ -728,6 +728,35 @@
     "status": "looking for jobs",
     "graduationDate": "08-07-2020",
     "lastUpdateDate": "07-09-2020" 
+  },
+  {
+    "id": 35,
+    "roles": ["alumni"],
+    "name": "Amer Dahabi",
+    "email": "aamerdahabi@gmail.com",
+    "photo": "/static/alumni/photos/amer.png",
+    "github": "https://github.com/amerdahabi",
+    "onlineCV": "/static/alumni/cv/Amer_Dahabi.pdf",
+    "linkedin": "https://www.linkedin.com/in/amer-dahabi-2193131aa/",
+    "skills": [
+      "JS",
+      "React",
+      "Node.js",
+      "Git",
+      "Knex.js",
+      "Express.js",
+      "MySQL",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Heroku",
+      "Figma",
+      "Postman",
+      "Storybook"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "08-07-2020",
+    "lastUpdateDate": "23-09-2020" 
   }
-  
 ]

@@ -37,7 +37,9 @@ Reference fields create relationships between content types. A simple example of
 ## Authentication
 
 To query content using the APIs, the client application needs to authenticate with Space ID and access token. A space is like a project folder in Contentful terms. 
-Both space ID and access token are available in the Contentful web app. Both variables should be added as Config Vars in Heroku. 
+Both space ID and access token are available in the Contentful [web app](https://app.contentful.com/spaces/46kdo181gk6a/api/keys). 
+Both variables should be added as Config Vars in Heroku. 
+More on Contentful authentication [here](https://www.contentful.com/developers/docs/references/authentication/). 
 
 ## Code structure:
 

@@ -3,8 +3,8 @@ import styles from './partners.scss'
 import { useContentfulEntryId } from '../../contentful/contentful-hooks'
 
 export default () => {
-  const partnersEntryId = '5SHgnmzfogPbe6BsoiRsCz'
-  const sponsorEntryId = '1He9psGH0xA4dMzOku8esx'
+  const partnersEntryId = '3BMLvRREsbeQcUPbpoqHGS'
+  const sponsorEntryId = '6D2BMNErzLJpTE31AavokM'
   const partners = useContentfulEntryId(partnersEntryId).content
   const sponsor = useContentfulEntryId(sponsorEntryId).content
 
