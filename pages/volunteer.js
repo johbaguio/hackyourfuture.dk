@@ -7,7 +7,7 @@ import Partners from '../components/partners/partners'
 import Curriculum from '../components/curriculum/curriculum'
 import FAQ from '../components/faq/faq-mentors'
 import { fetchPageContent } from '../contentful/contentful'
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 export default ({ content, title }) => (
   <Layout>
@@ -19,7 +19,7 @@ export default ({ content, title }) => (
       <Curriculum />
 
       <h2 id='becoming-mentor'>Would you like to help?</h2>
-      <Contactform email={'cph@hackyourfuture.net'} />
+      <Contactform email={'cph@hackyourfuture.dk'} />
     </Content>
 
     <Content>
@@ -36,7 +36,8 @@ export async function getStaticProps() {
 
   return {
     props: {
-      title: pageContent.headline, content: pageContent.mainBody
+      title: pageContent.headline,
+      content: pageContent.mainBody
     }
   }
 }
