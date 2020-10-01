@@ -3,7 +3,7 @@ import React from 'react'
 import { useContentfulEntryId } from '../../contentful/contentful-hooks'
 
 const Curriculum = () => {
-  const curriculumEntryId = '2bOrlf0fxogL8qL7pJXsc2'
+  const curriculumEntryId = '5iMQfQkm1sJoBdiBZArNLE'
 
   const { content: modules } = useContentfulEntryId(curriculumEntryId)
 
