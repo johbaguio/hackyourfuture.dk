@@ -1,4 +1,4 @@
-describe('Validate Apply Form', () => {
+describe('Validate Apply Form - No Errors', () => {
   it('open apply page', () => {
     cy.visit('/apply').contains('Application Form')
   })
