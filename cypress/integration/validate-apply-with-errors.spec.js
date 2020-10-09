@@ -80,8 +80,9 @@ describe('Validate Apply Form - With Errors', () => {
     getIframe()
       .find('#form18')
       .submit()
+  })
 
-    cy.log('there should be error message')
+  it('shows error messsage', () => {
     cy.wait(5000)
       .get('iframe')
       .scrollIntoView()
