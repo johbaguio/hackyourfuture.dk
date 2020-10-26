@@ -5,6 +5,7 @@ require('dotenv').config()
 const privateKey = process.env.PRIVATE_KEY.split(`\\n`).join(`
 `)
 
+// Link to the sheet: https://docs.google.com/spreadsheets/d/1KD6Dr9z5fxEzx-jxs84e0tBfpohTkup8GE4r3CC3qZA/edit#gid=0
 const client = new google.auth.JWT(process.env.CLIENT_EMAIL, null, privateKey, [
   'https://www.googleapis.com/auth/spreadsheets'
 ])
