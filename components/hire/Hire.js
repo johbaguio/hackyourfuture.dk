@@ -1,7 +1,6 @@
 import * as React from 'react'
 import alumniList from './alumni.json'
 import ItemCard from '../team/item-card/item-card'
-import Content from '../layouts/content/content'
 import styles from './hire.scss'
 import id from 'uuid/v4'
 
@@ -86,17 +85,8 @@ class Hire extends React.Component {
       selectedStatus
     } = this.state
     return (
-      <section className='hire'>
+      <>
         <style jsx>{styles}</style>
-        <h1>Find the right candidate</h1>
-        <p>
-          Meet the HackYourFuture alumni. Making a good match between our
-          dedicated graduates and hiring companies is super important to us.
-          <br />
-          <br />
-          We hope that this database will help you find your next favourite
-          employee or colleague!
-        </p>
         <div className='filters'>
           {/*FILTER BY SKILLS ---------------- */}
           <p>
@@ -150,7 +140,7 @@ class Hire extends React.Component {
             </div>
           )}
         </div>
-      </section>
+      </>
     )
   }
 }
