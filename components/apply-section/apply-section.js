@@ -1,11 +1,8 @@
 import React from 'react'
 import '../content/_apply'
-import {
-  sectionTitle,
-  contentOne,
-  contentTwo,
-  requirements
-} from '../content/_apply'
+import { sectionTitle, contentOne, contentTwo } from '../content/_apply'
+
+import { useContentfulEntryId } from '../../contentful/contentful-hooks'
 
 // import material UI
 import { makeStyles } from '@material-ui/core/styles'
@@ -17,6 +14,7 @@ import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import Grid from '@material-ui/core/Grid'
 import Container from '@material-ui/core/Container'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 // styling
 const useStyles = makeStyles({
@@ -38,22 +36,24 @@ const useStyles = makeStyles({
   listText: {
     fontFamily: "'Work Sans', 'sans-serif'",
     fontSize: '1rem'
-  },
-  contentOne: {
-    fontFamily: "'Work Sans', 'sans-serif'",
-    marginBottom: '20px'
-  },
-  contentTwo: {
-    fontFamily: "'Work Sans', 'sans-serif'"
   }
 })
 
-export default function applySection() {
+export default function applySection({ content, applyChecks, pointingImage }) {
   const classes = useStyles()
   return (
     <React.Fragment>
-      <h1>{sectionTitle}</h1>
-      <Typography className={classes.contentOne}>{contentOne}</Typography>
+      <div>
+        <style jsx global>
+          {`
+            #apply p {
+              font-size: 1rem;
+            }
+          `}
+        </style>
+        {documentToReactComponents(content)}
+      </div>
+
       <Grid
         container
         className={classes.stylePadding}
@@ -63,11 +63,10 @@ export default function applySection() {
       >
         <Grid item md={7}>
           <Container className={classes.stylePadding}>
-            <Typography className={classes.contentTwo}>{contentTwo}</Typography>
             <List className={classes.listText}>
-              {requirements.map(requirement => {
+              {applyChecks.map(check => {
                 return (
-                  <ListItem key={requirement} className={classes.stylePadding}>
+                  <ListItem key={check} className={classes.stylePadding}>
                     <ListItemAvatar>
                       <Avatar className={classes.avatar}>&#10004;</Avatar>
                     </ListItemAvatar>
@@ -75,7 +74,7 @@ export default function applySection() {
                       className={classes.listText}
                       disableTypography={true}
                     >
-                      {requirement}
+                      {check}
                     </ListItemText>
                   </ListItem>
                 )
@@ -84,7 +83,7 @@ export default function applySection() {
           </Container>
         </Grid>
         <Grid item md={5}>
-          <img src='/static/apply/apply-section-photo.jpg' />
+          <img alt={pointingImage.alt} src={pointingImage.src} />
         </Grid>
       </Grid>
     </React.Fragment>

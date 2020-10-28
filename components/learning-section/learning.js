@@ -1,6 +1,5 @@
 import React from 'react'
 import modulesTopics from './modules-topics'
-import { title, description } from './content'
 
 // import material UI
 import { makeStyles } from '@material-ui/core/styles'
@@ -42,12 +41,12 @@ const useStyles = makeStyles({
   }
 })
 
-export default function learning() {
+export default function learning({ title, content, skills }) {
   const classes = useStyles()
   return (
     <React.Fragment>
       <h2>{title}</h2>
-      <Typography className={classes.descriptionTwo}>{description}</Typography>
+      <Typography className={classes.descriptionTwo}>{content}</Typography>
       <Grid
         container
         direction='row'
@@ -55,17 +54,19 @@ export default function learning() {
         alignItems='stretch'
         spacing={3}
       >
-        {modulesTopics.map(topic => {
+        {skills.map(topic => {
           return (
-            <Grid item key={topic.id} lg={4}>
+            <Grid item key={topic.fields.title} lg={4}>
               <Avatar
-                alt={topic.title}
-                src={topic.icon}
+                alt={topic.fields.image.fields.title}
+                src={topic.fields.image.fields.file.url}
                 className={classes.avatar}
               />
-              <Typography className={classes.name}>{topic.name}</Typography>
+              <Typography className={classes.name}>
+                {topic.fields.title}
+              </Typography>
               <Typography className={classes.descriptionOne}>
-                {topic.description}
+                {topic.fields.content}
               </Typography>
             </Grid>
           )
