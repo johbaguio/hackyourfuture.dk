@@ -8,6 +8,7 @@ import Partners from '../components/partners/partners'
 import { Graduates } from '../components/team/team'
 import { fetchPageContent } from '../contentful/contentful'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import getEntryData from './../utils/utils'
 
 export default ({ title, content, successStories }) => {
   return (
@@ -34,10 +35,8 @@ export default ({ title, content, successStories }) => {
 export async function getStaticProps() {
   const pageContent = await fetchPageContent('7FxhqeZITqO5lhHwvzAu47')
 
-  const successStoriesId = '40NNt3OuP7s2tPGTg50BF5'
-  const successStories = pageContent.mainArea.find(
-    area => area.sys.id === successStoriesId
-  )
+  const successStoriesId = '7RI6Ik2yK1OblVP8csFdz'
+  const successStories = getEntryData(pageContent, successStoriesId)
 
   return {
     props: {

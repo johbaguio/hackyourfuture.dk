@@ -9,6 +9,7 @@ import Partners from '../components/partners/partners'
 import Press from '../components/partners/press'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { fetchPageContent } from '../contentful/contentful'
+import getEntryData from './../utils/utils'
 
 export default ({ content, title, contactTitle, contactBody }) => {
   return (
@@ -16,11 +17,11 @@ export default ({ content, title, contactTitle, contactBody }) => {
       <Head>
         <title>{title}</title>
       </Head>
-  
+
       <Content>
-      <div>{documentToReactComponents(content)}</div>
+        <div>{documentToReactComponents(content)}</div>
       </Content>
-  
+
       <Content id='contact'>
         <h2>{contactTitle}</h2>
         <div>{documentToReactComponents(contactBody)}</div>
@@ -29,26 +30,27 @@ export default ({ content, title, contactTitle, contactBody }) => {
           <Map />
         </div>
       </Content>
-  
+
       <BoardMembers />
       <CoreTeam />
       <Press />
       <Partners />
     </Layout>
   )
-} 
+}
 
 export async function getStaticProps() {
   const pageContent = await fetchPageContent('3VD8j3TGv3H66fVLrHGWuC')
-  const contactContent = await fetchPageContent('57BmNlPMn5pBZBBvPNIoLC')
-  
+
+  const contactContentId = '57BmNlPMn5pBZBBvPNIoLC'
+  const contactContent = getEntryData(pageContent, contactContentId)
+
   return {
     props: {
       title: pageContent.headline,
       content: pageContent.mainBody,
-      contactTitle: contactContent.title,
-      contactBody: contactContent.bodyText,
-
+      contactTitle: contactContent.fields.title,
+      contactBody: contactContent.fields.bodyText
     }
   }
 }
