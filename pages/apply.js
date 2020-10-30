@@ -9,6 +9,7 @@ import ApplicationDeadline from '../components/apply-section/deadline/deadline'
 
 import { fetchPageContent } from '../contentful/contentful'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
+import getEntryData from './../utils/utils'
 
 export default ({
   applyChecks,
@@ -55,27 +56,34 @@ export default ({
 )
 
 export async function getStaticProps() {
-  const applychecksData = await fetchPageContent('7RI6Ik2yK1OblVP8csFdz')
-  const pointingImage = await fetchPageContent('6xuKqprt3T2bjoxYNYH8Ez')
   const applyPage = await fetchPageContent('5w7Jg0xHnqQj45oYpDNIo2')
+  // The reason we are also fetching this is because all the data is not published in the applyPage content
   const whatYouWillLearn = await fetchPageContent('7iahIUby68cDwoG6ytjKkD')
-  const getAHeadStart = await fetchPageContent('5ByqCkyQobvlXVvXM4bezP')
+
+  const applychecksId = '7RI6Ik2yK1OblVP8csFdz'
+  const applychecksData = getEntryData(applyPage, applychecksId)
+
+  const pointingImageId = '6xuKqprt3T2bjoxYNYH8Ez'
+  const pointingImage = getEntryData(applyPage, pointingImageId)
+
+  const getAHeadStartId = '5ByqCkyQobvlXVvXM4bezP'
+  const getAHeadStart = getEntryData(applyPage, getAHeadStartId)
 
   return {
     props: {
-      applyChecks: applychecksData.applyChecks,
+      applyChecks: applychecksData.fields.applyChecks,
       title: applyPage.headline,
       content: applyPage.mainBody,
       pointingImage: {
-        src: pointingImage.image.fields.file.url,
-        alt: pointingImage.image.fields.title
+        src: pointingImage.fields.image.fields.file.url,
+        alt: pointingImage.fields.image.fields.title
       },
       whatYouWillLearn: {
         title: whatYouWillLearn.title,
         content: whatYouWillLearn.content,
         skills: whatYouWillLearn.skills
       },
-      getAHeadStart
+      getAHeadStart: getAHeadStart.fields
     }
   }
 }
