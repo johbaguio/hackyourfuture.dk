@@ -1,15 +1,15 @@
 import Head from 'next/head'
 import Layout from '../components/layouts/layout'
 import Content from '../components/layouts/content/content'
-import marked from 'marked'
 import Hero from '../components/hero/hero'
 import VideoHighlight from '../components/video-highlight/video-highlight'
-import { content, title } from '../components/content/_home'
 import FindUs from '../components/find-us/find-us'
 import Partners from '../components/partners/partners'
 import { Graduates } from '../components/team/team'
+import { fetchPageContent } from '../contentful/contentful'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
-export default () => {
+export default ({ title, content, successStories }) => {
   return (
     <Layout>
       <Head>
@@ -20,12 +20,33 @@ export default () => {
         <title>{title}</title>
       </Head>
       <Hero />
-      <Content>
-        <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
-      </Content>
+      <Content>{documentToReactComponents(content)}</Content>
       <Graduates />
       <Partners />
-      <VideoHighlight />
+      <VideoHighlight
+        title={successStories.title}
+        content={successStories.content}
+      />
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const pageContent = await fetchPageContent('7FxhqeZITqO5lhHwvzAu47')
+
+  const successStoriesId = '40NNt3OuP7s2tPGTg50BF5'
+  const successStories = pageContent.mainArea.find(
+    area => area.sys.id === successStoriesId
+  )
+
+  return {
+    props: {
+      title: pageContent.headline,
+      content: pageContent.mainBody,
+      successStories: {
+        title: successStories.fields.title,
+        content: successStories.fields.content
+      }
+    }
+  }
 }

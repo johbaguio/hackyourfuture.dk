@@ -7,17 +7,13 @@ const Iframe = props => (
   </>
 )
 
-export default () => (
+export default ({ title, content }) => (
   <>
     <style jsx>{styles}</style>
     <section className='video-highlight' id='zuhair-success-story'>
-      <h2>Success stories</h2>
+      <h2>{title}</h2>
       <div className='wrapper'>
-        <p>
-          Watch this <strong>inspiring short film</strong> about our graduate
-          Zuhair, who <strong>landed his first developer job</strong> in Denmark
-          after completing the HackYourFuture program.
-        </p>
+        <p>{content}</p>
 
         <Iframe
           src='https://player.vimeo.com/video/390957830'
