@@ -1,20 +1,31 @@
 import Head from 'next/head'
-import marked from 'marked'
 import Layout from '../components/layouts/layout'
 import Content from '../components/layouts/content/content'
 import Map from '../components/map'
-import { content, title } from '../components/content/_privacy'
+import { fetchPageContent } from '../contentful/contentful'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
-export default () => {
+export default ({ content, title }) => {
   return (
     <Layout>
       <Head>
         <title>{title}</title>
       </Head>
       <Content>
-        <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
+        <div>{documentToReactComponents(content)}</div>
         <Map />
       </Content>
     </Layout>
   )
+}
+
+export async function getStaticProps() {
+  const pageContent = await fetchPageContent('wJmhVVjaV2us3brdCIXAT')
+
+  return {
+    props: {
+      title: pageContent.headline,
+      content: pageContent.mainBody
+    }
+  }
 }
