@@ -35,7 +35,7 @@ export default ({ title, content, successStories }) => {
 export async function getStaticProps() {
   const pageContent = await fetchPageContent('7FxhqeZITqO5lhHwvzAu47')
 
-  const successStoriesId = '7RI6Ik2yK1OblVP8csFdz'
+  const successStoriesId = '40NNt3OuP7s2tPGTg50BF5'
   const successStories = getEntryData(pageContent, successStoriesId)
 
   return {
