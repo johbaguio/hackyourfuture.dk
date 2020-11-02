@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import marked from 'marked'
 import Layout from '../components/layouts/layout'
 import Content from '../components/layouts/content/content'
 import { fetchPageContent } from '../contentful/contentful'
-
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
 export default ({ title, content, image }) => (
