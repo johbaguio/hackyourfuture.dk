@@ -2,22 +2,35 @@ import Head from 'next/head'
 import marked from 'marked'
 import Layout from '../components/layouts/layout'
 import Content from '../components/layouts/content/content'
+import { fetchPageContent } from '../contentful/contentful'
 
-import { content, title } from '../components/content/_application-confirmation'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
-export default () => (
+export default ({ title, content, image }) => (
   <Layout>
     <Head>
       <title>{title}</title>
     </Head>
 
     <Content>
-      <div dangerouslySetInnerHTML={{ __html: marked(content) }} />
+      <div>{documentToReactComponents(content)}</div>
     </Content>
     <Content>
       <div className='confirmation-page-img'>
-        <img src='../static/confirmation-page/confirmation-page-photo.jpg' />
+        <img src={image.file.url} alt={image.title} />
       </div>
     </Content>
   </Layout>
 )
+
+export async function getStaticProps() {
+  const pageContent = await fetchPageContent('cS3oLqB8DypN5oaN74EwW')
+
+  return {
+    props: {
+      title: pageContent.title,
+      content: pageContent.content,
+      image: pageContent.image.fields
+    }
+  }
+}
