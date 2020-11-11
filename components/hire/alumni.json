@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "roles": ["alumni"],
     "name": "Isaac Katongole",
@@ -787,7 +786,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "08-07-2020",
-    "lastUpdateDate": "23-09-2020" 
+    "lastUpdateDate": "23-09-2020"
   },
   {
     "id": 36,
@@ -814,6 +813,37 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "29-04-2020",
-    "lastUpdateDate": "23-10-2020" 
+    "lastUpdateDate": "23-10-2020"
+  },
+  {
+    "id": 37,
+    "roles": ["alumni"],
+    "name": "Tiago Gonçalves",
+    "email": "tiago86g@gmail.com",
+    "photo": "/static/alumni/photos/tiago.jpg",
+    "github": "https://github.com/tiago86g",
+    "pdfCV": "/static/alumni/cv/tiago.pdf",
+    "linkedin": "https://www.linkedin.com/in/tiago86g/",
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "Swagger",
+      "React",
+      "Heroku",
+      "Firebase",
+      "Knex.js",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Storybook",
+      "UX design",
+      "Figma",
+      "Adobe",
+      "Git"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "21-10-2020",
+    "lastUpdateDate": "10-11-2020"
   }
 ]
