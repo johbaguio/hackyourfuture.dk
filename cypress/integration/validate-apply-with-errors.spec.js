@@ -78,7 +78,7 @@ describe('Validate Apply Form - With Errors', () => {
 
     cy.log('submit form')
     getIframe()
-      .find('#form18')
+      .find('#form21')
       .submit()
   })
 

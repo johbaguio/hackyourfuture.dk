@@ -50,6 +50,13 @@ describe('Validate Apply Form - No Errors', () => {
       .click()
       .type('28123456')
 
+    cy.log('filling out class')
+    getIframe()
+      .find('label.choice')
+      .contains('I prefer to start the class')
+      .first()
+      .click()
+
     cy.log('filling out municipality')
     getIframe()
       .find('label.desc')
@@ -78,13 +85,13 @@ describe('Validate Apply Form - No Errors', () => {
 
     cy.log('filling out do you have laptop')
     getIframe()
-      .find('li#fo18li14')
+      .find('li#fo21li14')
       .contains('Yes')
       .click()
 
     cy.log('filling out have you programmed before')
     getIframe()
-      .find('li#fo18li15')
+      .find('li#fo21li15')
       .contains('No')
       .click()
 
@@ -139,7 +146,7 @@ describe('Validate Apply Form - No Errors', () => {
       'fixture:apply'
     ).as('applySuccess')
     getIframe()
-      .find('#form18')
+      .find('#form21')
       .submit()
 
     cy.log('check there is no error message')
