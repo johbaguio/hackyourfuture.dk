@@ -5,7 +5,8 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "node server.js",
-    "heroku-postbuild": "npm run build"
+    "heroku-postbuild": "npm run build",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^14.1.1",
@@ -14,6 +15,8 @@
     "@mdi/js": "^3.5.95",
     "@mdi/react": "^1.1.0",
     "compression-webpack-plugin": "^3.1.0",
+    "cypress": "^5.0.0",
+    "cypress-file-upload": "^4.1.1",
     "contentful": "^7.14.6",
     "dotenv": "^8.2.0",
     "express": "^4.14.0",

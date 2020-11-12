@@ -46,6 +46,8 @@ const useStyles = makeStyles({
   }
 })
 
+
+// Link to the sheet: https://docs.google.com/spreadsheets/d/1KD6Dr9z5fxEzx-jxs84e0tBfpohTkup8GE4r3CC3qZA/edit#gid=0
 export default function Deadline() {
   const classes = useStyles()
 

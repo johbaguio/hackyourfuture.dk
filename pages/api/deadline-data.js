@@ -5,6 +5,7 @@ require('dotenv').config()
 const privateKey = process.env.PRIVATE_KEY.split(`\\n`).join(`
 `)
 
+// Link to the sheet: https://docs.google.com/spreadsheets/d/1KD6Dr9z5fxEzx-jxs84e0tBfpohTkup8GE4r3CC3qZA/edit#gid=0
 const client = new google.auth.JWT(process.env.CLIENT_EMAIL, null, privateKey, [
   'https://www.googleapis.com/auth/spreadsheets'
 ])
@@ -22,7 +23,7 @@ async function gsrun(client) {
   const gsapi = google.sheets({ version: 'v4', auth: client })
 
   const spreadsheetDetails = {
-    spreadsheetId: '1edSXrvn_avbnqJNMdAJEDeuFOKMZ97Z5UyIOgdWld4w',
+    spreadsheetId: '1KD6Dr9z5fxEzx-jxs84e0tBfpohTkup8GE4r3CC3qZA',
     range: 'A1:C2'
   }
 
@@ -38,6 +39,6 @@ export default async (req, res) => {
     const data = await gsrun(client)
     res.end(JSON.stringify({ data }))
   } catch (error) {
-    console.error(error)
+    console.log(error);
   }
 }

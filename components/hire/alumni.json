@@ -1,5 +1,4 @@
-[
-  {
+[{
     "id": 1,
     "roles": ["alumni"],
     "name": "Isaac Katongole",
@@ -11,7 +10,7 @@
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
     "status": "looking for jobs",
     "graduationDate": "02-09-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 2,
@@ -25,7 +24,7 @@
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
     "status": "employed",
     "graduationDate": "25-11-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 3,
@@ -47,7 +46,6 @@
       "Node.js",
       "Java",
       "Sass",
-      "Scss",
       "Heroku",
       "Knex.js",
       "XML",
@@ -56,7 +54,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "02-06-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 4,
@@ -88,7 +86,7 @@
     "status": "employed",
     "company": "SocialTechProject",
     "graduationDate": "02-06-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 5,
@@ -102,7 +100,7 @@
     "status": "employed",
     "company": "Peytz & Co",
     "graduationDate": "25-11-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 6,
@@ -115,7 +113,7 @@
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
     "status": "looking for jobs",
     "graduationDate": "25-11-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 7,
@@ -129,7 +127,7 @@
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
     "status": "looking for jobs",
     "graduationDate": "02-06-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 8,
@@ -143,7 +141,7 @@
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
     "status": "employed",
     "graduationDate": "27-01-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 9,
@@ -157,7 +155,7 @@
     "company": "Mytheresa.com",
     "status": "employed",
     "graduationDate": "27-01-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 10,
@@ -171,7 +169,7 @@
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
     "status": "looking for jobs",
     "graduationDate": "01-09-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 11,
@@ -195,7 +193,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "11-08-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 12,
@@ -225,7 +223,7 @@
     ],
     "status": "employed",
     "graduationDate": "11-06-2018",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 13,
@@ -244,11 +242,11 @@
       "HTML",
       "CSS",
       "Node.js",
-      "HighCharts/React-HighCharts"
+      "HighCharts"
     ],
     "status": "looking for jobs",
     "graduationDate": "11-08-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 14,
@@ -271,7 +269,7 @@
     "linkedin": "https://www.linkedin.com/in/nmoskaleva",
     "status": "looking for jobs",
     "graduationDate": "11-08-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 15,
@@ -285,17 +283,19 @@
       "React",
       "Knex.js",
       "Express.js",
-      "MySQL",
+      "My SQL",
       "HTML",
       "CSS",
-      "Node.js"
+      "Node.js",
+      "HighCharts/React-HighCharts",
+      "UX design",
+      "React-Native"
     ],
     "linkedin": "https://www.linkedin.com/in/keerthi-alampalli-002750152",
     "pdfCV": "/static/alumni/cv/Keerthi.pdf",
-    "onlineCV": "https://keerthi1822.github.io/Resume/",
     "status": "looking for jobs",
     "graduationDate": "11-08-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 16,
@@ -317,7 +317,7 @@
     ],
     "status": "employed",
     "graduationDate": "11-08-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 17,
@@ -340,7 +340,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "11-08-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 18,
@@ -364,7 +364,7 @@
     ],
     "status": "employed",
     "graduationDate": "11-08-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 19,
@@ -389,7 +389,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "23-10-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 20,
@@ -414,7 +414,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "23-10-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 21,
@@ -439,7 +439,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "23-10-2019",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 22,
@@ -451,7 +451,7 @@
     "photo": "/static/team/abdulrahman.jpg",
     "linkedin": "https://www.linkedin.com/in/ramadan46/",
     "skills": ["JS", "MySQL", "React", "HTML", "CSS", "Node.js"],
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 23,
@@ -463,7 +463,7 @@
     "photo": "/static/team/zoey.jpg",
     "linkedin": "https://www.linkedin.com/in/zoeyzou2018/",
     "skills": ["JS", "MySQL", "React", "HTML", "CSS", "Node.js"],
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 24,
@@ -475,7 +475,7 @@
     "photo": "/static/team/hala.jpg",
     "linkedin": "https://www.linkedin.com/in/hala-qasim-009451155/",
     "skills": ["JS", "MySQL", "React", "HTML", "CSS", "Node.js"],
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 25,
@@ -498,11 +498,11 @@
       "Knex.js",
       "MySQL",
       "Firebase",
-      "TS"
+      "TypeScript"
     ],
     "status": "looking for jobs",
     "graduationDate": "29-04-2020",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 26,
@@ -530,7 +530,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "29-01-2020",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 27,
@@ -552,11 +552,11 @@
       "Node.js",
       "Python",
       "Knex.js",
-      "sass"
+      "Sass"
     ],
     "status": "looking for jobs",
     "graduationDate": "29-04-2020",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 28,
@@ -573,7 +573,7 @@
       "React",
       "Node.js",
       "Express.js",
-      "Wordpress",
+      "WordPress",
       "PHP",
       "Knex.js",
       "MySQL",
@@ -581,12 +581,12 @@
       "CSS",
       "Sass",
       "Bootstrap",
-      "Adobe package",
+      "Adobe",
       "Git"
     ],
     "status": "looking for jobs",
     "graduationDate": "08-07-2020",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 29,
@@ -616,7 +616,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "29-01-2020",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 30,
@@ -637,15 +637,15 @@
       "HTML",
       "CSS",
       "Node.js",
-      "Typescript",
-      "storybook",
+      "TypeScript",
+      "Storybook",
       "Firebase",
       "Git",
       "Microsoft Azure"
     ],
     "status": "looking for jobs",
     "graduationDate": "29-04-2020",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 31,
@@ -673,7 +673,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "29-04-2020",
-    "lastUpdateDate": "01-09-2020" 
+    "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 32,
@@ -684,13 +684,26 @@
     "github": "https://github.com/rufaidaju",
     "onlineCV": "/static/alumni/cv/rufaida.pdf",
     "linkedin": "https://www.linkedin.com/in/rufaida-jumaa-a15ba4142",
-    "skills": ["JS","React","Node.js","Git","Knex.js","Express.js","MySQL","HTML","CSS","Sitecore","Umbraco","Bootstrap"],
+    "skills": [
+      "JS",
+      "React",
+      "Node.js",
+      "Git",
+      "Knex.js",
+      "Express.js",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Sitecore",
+      "Umbraco",
+      "Bootstrap"
+    ],
     "status": "looking for jobs",
     "graduationDate": "14-01-2018",
-    "lastUpdateDate": "01-09-2020"    
+    "lastUpdateDate": "01-09-2020"
   },
   {
-    "id": 34,
+    "id": 33,
     "roles": ["alumni"],
     "name": "John Alyazji",
     "email": "john.yazji@gmail.com",
@@ -713,7 +726,7 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "08-07-2020",
-    "lastUpdateDate": "05-09-2020" 
+    "lastUpdateDate": "05-09-2020"
   },
   {
     "id": 34,
@@ -724,10 +737,26 @@
     "github": "https://github.com/myshuker",
     "onlineCV": "/static/alumni/cv/mohammad.pdf",
     "linkedin": "https://www.linkedin.com/in/mohammad-alshoker-365376b8/",
-    "skills": ["JS","React","Node.js","Git","Knex.js","Express.js","MySQL","HTML","CSS","MogoDB","SASS","Heroku","Figma","PLC Programming","Swagger"],
+    "skills": [
+      "JS",
+      "React",
+      "Node.js",
+      "Git",
+      "Knex.js",
+      "Express.js",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "MongoDB",
+      "Sass",
+      "Heroku",
+      "Figma",
+      "PLC Programming",
+      "Swagger"
+    ],
     "status": "looking for jobs",
     "graduationDate": "08-07-2020",
-    "lastUpdateDate": "07-09-2020" 
+    "lastUpdateDate": "07-09-2020"
   },
   {
     "id": 35,
@@ -757,6 +786,64 @@
     ],
     "status": "looking for jobs",
     "graduationDate": "08-07-2020",
-    "lastUpdateDate": "23-09-2020" 
+    "lastUpdateDate": "23-09-2020"
+  },
+  {
+    "id": 36,
+    "roles": ["alumni"],
+    "name": "Mamatha Mereddy",
+    "email": "mamathavangala1@gmail.com",
+    "photo": "/static/alumni/photos/mamatha.jpg",
+    "github": "https://github.com/mamathamereddy",
+    "linkedin": "https://www.linkedin.com/in/mereddy-mamatha/",
+    "pdfCV": "/static/alumni/cv/mamatha.pdf",
+    "onlineCV": "https://mamatha-portfolio.netlify.app/",
+    "skills": [
+      "JS",
+      "React",
+      "ReactNative",
+      "Node.js",
+      "Express.js",
+      "Knex.js",
+      "MySQL",
+      "HTML",
+      "CSS",
+      "Wordpress",
+      "Git"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "29-04-2020",
+    "lastUpdateDate": "23-10-2020"
+  },
+  {
+    "id": 37,
+    "roles": ["alumni"],
+    "name": "Tiago Gonçalves",
+    "email": "tiago86g@gmail.com",
+    "photo": "/static/alumni/photos/tiago.jpg",
+    "github": "https://github.com/tiago86g",
+    "pdfCV": "/static/alumni/cv/tiago.pdf",
+    "linkedin": "https://www.linkedin.com/in/tiago86g/",
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "Swagger",
+      "React",
+      "Heroku",
+      "Firebase",
+      "Knex.js",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "Storybook",
+      "UX design",
+      "Figma",
+      "Adobe",
+      "Git"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "21-10-2020",
+    "lastUpdateDate": "10-11-2020"
   }
 ]
