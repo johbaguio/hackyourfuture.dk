@@ -10,9 +10,7 @@ class Hire extends React.Component {
     selectedSkills: [],
     selectedStatus: [],
     uniqueStatuses: [],
-    alumniList: alumniList.filter(
-      alumni => alumni.status === 'looking for jobs'
-    )
+    alumniList
   }
 
   componentDidMount() {
@@ -36,12 +34,16 @@ class Hire extends React.Component {
   }
 
   doFiltering = () => {
+    console.log(this.state)
     // by default: all alumni list
-    let newAlumniList = alumniList.filter(
-      alumni => alumni.status === 'looking for jobs'
-    )
-    // if any filter by skills button is clicked, then filter by skills
+
+    let newAlumniList =
+      this.state.selectedStatus[0] === 'looking for jobs'
+        ? alumniList.filter(alumni => alumni.status === 'looking for jobs')
+        : alumniList
+
     if (this.state.selectedSkills.length !== 0) {
+      // if any filter by skills button is clicked, then filter by skills
       newAlumniList = newAlumniList.filter(alumni =>
         this.state.selectedSkills.every(s => alumni.skills.includes(s))
       )

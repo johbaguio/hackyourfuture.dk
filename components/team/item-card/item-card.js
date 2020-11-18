@@ -50,17 +50,20 @@ const ItemCard = ({ item, children }) => {
             height: 36vw;
           }
         }
+        .team-member-card.employed img {
+          opacity: 0.2;
+        }
       `}</style>
-      <div className='team-member-card'>
+      <div className={`team-member-card ${status}`}>
         {photo ? (
           <LazyLoadImage alt={name} src={photo} />
         ) : (
-            <LazyLoadImage
-              alt={name}
-              className='member-default-avatar'
-              src={'/static/avatar.png'}
-            />
-          )}
+          <LazyLoadImage
+            alt={name}
+            className='member-default-avatar'
+            src={'/static/avatar.png'}
+          />
+        )}
         <h3 className='member-name'>{name}</h3>
 
         <p className='member-company'>{company}</p>

@@ -10,6 +10,7 @@ $primary-color: #293a7d;
   flex-direction: column;
   box-sizing: border-box;
   max-width: 260px;
+  position: relative;
 
   .member-name {
     font-family: Space Mono, monospace;
@@ -44,6 +45,23 @@ $primary-color: #293a7d;
       &:hover {
         opacity: 0.7;
       }
+    }
+  }
+
+  &.employed {
+    &::after {
+      content: 'Hired';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: block;
+      font-weight: bold;
+      text-shadow: 2px 2px 10px white;
+    }
+
+    > * {
+      opacity: 0.2;
     }
   }
 }
