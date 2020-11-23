@@ -40,6 +40,16 @@ export default ({
     </Content>
     <Content id='apply-for-class'>
       <h2>Application Form</h2>
+      <p>
+        We are recruiting for the next two classes of HackYourFuture Copenhagen.
+        <br />
+        Class18 will start in March 2021. <br />
+        Class19 will start in May 2021. <br />
+        <br />
+        We are right now updating our application process and we might need you
+        to re-apply at a later point, but we will inform you about this and your
+        application is registered once you have filled out this form.
+      </p>
       <WufooForm
         userName='cphhackyourfuture'
         formHash='m1s6lrpc1v50dg3'
