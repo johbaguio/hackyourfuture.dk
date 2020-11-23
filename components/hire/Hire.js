@@ -134,7 +134,13 @@ class Hire extends React.Component {
           {alumniList.length > 0 ? (
             alumniList
               .sort((a, b) => a.name.localeCompare(b.name))
-              .map(member => <ItemCard item={member} key={member.id} />)
+              .map(member => (
+                <ItemCard
+                  item={member}
+                  key={member.id}
+                  showHiredOverlay={true}
+                />
+              ))
           ) : (
             <div className='no-results'>
               <h3>No students found</h3>

@@ -14,7 +14,7 @@ export const CoreTeam = () => {
       <h2 className='title'>Core team</h2>
       <div className='team-members core-team'>
         {coreTeam.map(member => (
-          <ItemCard item={member} key={member.id} />
+          <ItemCard item={member} key={member.id} showHiredOverlay={false} />
         ))}
       </div>
     </>
@@ -31,7 +31,11 @@ export const BoardMembers = () => {
       <h2 className='title'>Board members</h2>
       <div className='team-members core-team'>
         {boardMembers.map(boardMember => (
-          <ItemCard item={boardMember} key={boardMember.id} />
+          <ItemCard
+            item={boardMember}
+            key={boardMember.id}
+            showHiredOverlay={false}
+          />
         ))}
       </div>
     </>
@@ -48,7 +52,7 @@ export const MentorsTeam = () => {
         {mentors
           .sort((a, b) => a.name.localeCompare(b.name)) // sort names alphabetically
           .map(member => (
-            <ItemCard item={member} key={member.id} />
+            <ItemCard item={member} key={member.id} showHiredOverlay={false} />
           ))}
       </div>
     </>
@@ -65,7 +69,7 @@ export const Graduates = () => {
         {highlightedAlumniInCompany
           .sort((a, b) => a.name.localeCompare(b.name))
           .map(member => (
-            <ItemCard item={member} key={member.id} />
+            <ItemCard item={member} key={member.id} showHiredOverlay={false} />
           ))}
       </div>
     </>

@@ -48,7 +48,7 @@ $primary-color: #293a7d;
     }
   }
 
-  &.employed {
+  &.show-hired-overlay {
     &::after {
       content: 'Hired';
       position: absolute;
