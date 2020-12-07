@@ -1,0 +1,12 @@
+section.sponsors {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem 4rem 3rem 4rem;
+  max-width: 1300px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+  }
+}
