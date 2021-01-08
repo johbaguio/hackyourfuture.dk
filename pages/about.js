@@ -8,12 +8,23 @@ import { BoardMembers, CoreTeam } from '../components/team/team'
 import Partners from '../components/partners/partners'
 import Supporters from '../components/supporters/supporters'
 import Sponsors from '../components/sponsors/sponsors'
+import Mission from '../components/mission/mission'
+import Vision from '../components/vision/vision'
 import Press from '../components/press/press'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { fetchPageContent } from '../contentful/contentful'
 import getEntryData from './../utils/utils'
 
-export default ({ content, title, contactTitle, contactBody }) => {
+export default ({
+  content,
+  title,
+  contactTitle,
+  contactBody,
+  missionTitle,
+  missionContent,
+  visionTitle,
+  visionContent
+}) => {
   return (
     <Layout>
       <Head>
@@ -39,6 +50,8 @@ export default ({ content, title, contactTitle, contactBody }) => {
       <Sponsors />
       <Partners />
       <Supporters />
+      <Vision title={visionTitle} content={visionContent} />
+      <Mission title={missionTitle} content={missionContent} />
     </Layout>
   )
 }
@@ -49,12 +62,22 @@ export async function getStaticProps() {
   const contactContentId = '57BmNlPMn5pBZBBvPNIoLC'
   const contactContent = getEntryData(pageContent, contactContentId)
 
+  const missionId = '78n7xxaJslhhZgyfenKIfY'
+  const mission = getEntryData(pageContent, missionId)
+
+  const visionId = '2fFr5cVrIsqSHp3Y5s0qkz'
+  const vision = getEntryData(pageContent, visionId)
+
   return {
     props: {
       title: pageContent.headline,
       content: pageContent.mainBody,
       contactTitle: contactContent.fields.title,
-      contactBody: contactContent.fields.bodyText
+      contactBody: contactContent.fields.bodyText,
+      missionTitle: mission.fields.title,
+      missionContent: mission.fields.content,
+      visionTitle: vision.fields.title,
+      visionContent: vision.fields.content
     }
   }
 }
