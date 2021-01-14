@@ -6,7 +6,9 @@ import Map from '../components/map'
 import Contactform from '../components/contact-form/contact-form'
 import { BoardMembers, CoreTeam } from '../components/team/team'
 import Partners from '../components/partners/partners'
-import Press from '../components/partners/press'
+import Supporters from '../components/supporters/supporters'
+import Sponsors from '../components/sponsors/sponsors'
+import Press from '../components/press/press'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { fetchPageContent } from '../contentful/contentful'
 import getEntryData from './../utils/utils'
@@ -34,7 +36,9 @@ export default ({ content, title, contactTitle, contactBody }) => {
       <BoardMembers />
       <CoreTeam />
       <Press />
+      <Sponsors />
       <Partners />
+      <Supporters />
     </Layout>
   )
 }

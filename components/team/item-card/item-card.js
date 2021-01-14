@@ -11,7 +11,7 @@ import {
 } from '@mdi/js'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 
-const ItemCard = ({ item, children }) => {
+const ItemCard = ({ item, children, showHiredOverlay }) => {
   const {
     photo,
     github,
@@ -27,6 +27,7 @@ const ItemCard = ({ item, children }) => {
     company,
     status
   } = item
+  const shouldShowHiredOverlay = showHiredOverlay && status === 'employed'
   return (
     <div>
       <style jsx>{styles}</style>
@@ -50,17 +51,23 @@ const ItemCard = ({ item, children }) => {
             height: 36vw;
           }
         }
+        .team-member-card.show-hired-overlay img {
+          opacity: 0.2;
+        }
       `}</style>
-      <div className='team-member-card'>
+      <div
+        className={`team-member-card ${shouldShowHiredOverlay &&
+          'show-hired-overlay'}`}
+      >
         {photo ? (
           <LazyLoadImage alt={name} src={photo} />
         ) : (
-            <LazyLoadImage
-              alt={name}
-              className='member-default-avatar'
-              src={'/static/avatar.png'}
-            />
-          )}
+          <LazyLoadImage
+            alt={name}
+            className='member-default-avatar'
+            src={'/static/avatar.png'}
+          />
+        )}
         <h3 className='member-name'>{name}</h3>
 
         <p className='member-company'>{company}</p>

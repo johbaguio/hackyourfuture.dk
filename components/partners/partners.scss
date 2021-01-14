@@ -2,37 +2,29 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 1rem 4rem 3rem 4rem;
+  max-width: 1300px;
+  margin: 0 auto;
 
-  a.mollerske {
-    width: calc(100% - 24px);
-    max-width: 1000px;
-  }
-
-  .wrapper {
-    max-width: 1200px;
+  ul {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 1rem;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 48px;
 
-    .partner {
-      width: 50%;
-      padding: 20px;
-      transition: all 0.5s;
-      text-align: center;
-      color: #787878;
-      font-size: 3rem;
-
-      @media (min-width: 800px) {
-        width: 25%;
+    li {
+      &.gold {
+        max-width: 250px;
+      }
+      &.silver {
+        max-width: 150px;
+      }
+      &.bronze {
+        max-width: 100px;
+      }
+      img {
+        width: 100%;
       }
     }
-  }
-
-  .center {
-    text-align: center;
-    font-family: Space Mono, monospace;
-    margin: 5rem 0 3rem 0;
   }
 }
