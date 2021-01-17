@@ -846,5 +846,38 @@
     "status": "looking for jobs",
     "graduationDate": "21-10-2020",
     "lastUpdateDate": "10-11-2020"
+  },
+  {
+    "id": 38,
+    "roles": ["alumni"],
+    "name": "Svetlana Stosic Milosavljevic",
+    "company": "GreenMobility",
+    "email": "cecastosic@gmail.com",
+    "photo": "/static/alumni/photos/svetlana.jpeg",
+    "github": "https://github.com/cecastosic",
+    "linkedin": "https://www.linkedin.com/in/cecastosic/",
+    "skills": [
+      "HTML",
+      "CSS",
+      "JS",
+      "React",
+      "Storybook",
+      "UX design",
+      "Figma",
+      "Adobe",
+      "Node.js",
+      "Express.js",
+      "Knex.js",
+      "MySQL",
+      "GraphQL",
+      "Firebase",
+      "Swagger",
+      "Git",
+      "React Testing Library",
+      "Cypress"
+    ],
+    "status": "employed",
+    "graduationDate": "29-04-2020",
+    "lastUpdateDate": "14-01-2021"
   }
 ]
