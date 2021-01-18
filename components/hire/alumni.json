@@ -912,6 +912,7 @@
       "name": "Maher Hussain",
       "email": "maherhussain6@gmail.com",
       "photo": "/static/alumni/photos/maher.jpg",
+      "pdfCV": "/static/alumni/cv/maher.pdf",
       "github": "https://github.com/MaherHussain",
       "linkedin": "https://www.linkedin.com/in/maher-hussain/",
       "skills": [
@@ -931,7 +932,6 @@
         "Git",
         "Umbraco",
         "WordPress"
-        
       ],
       "status": "looking for jobs",
       "graduationDate": "06-01-2021",
