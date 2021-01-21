@@ -1,28 +1,48 @@
 [
   {
     "id": 1,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Isaac Katongole",
     "email": "katsisaac50@gmail.com",
     "photo": "/static/alumni/photos/isaac.jpg",
     "github": "https://github.com/katsisaac50",
     "onlineCV": "https://katsisaac50.github.io/myresume/",
     "linkedin": "https://www.linkedin.com/in/katongole-isaac-2b27b6170/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "status": "looking for jobs",
     "graduationDate": "02-09-2018",
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 2,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Richard Paredes",
     "email": "chard.paredes@gmail.com",
     "photo": "/static/alumni/photos/richard.jpg",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, voluptate.",
     "github": "https://github.com/paredesrichard",
     "linkedin": "https://www.linkedin.com/in/richard-paredes/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "status": "employed",
     "company": "Munin Data",
     "graduationDate": "25-11-2018",
@@ -30,7 +50,9 @@
   },
   {
     "id": 3,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Monya Kwene Alete",
     "email": "kwenait@yahoo.ca ",
     "photo": "/static/alumni/photos/monya.jpg",
@@ -60,7 +82,9 @@
   },
   {
     "id": 4,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Badr Amine",
     "email": "amine2019badr@gmail.com",
     "photo": "/static/alumni/photos/badr.jpg",
@@ -92,13 +116,23 @@
   },
   {
     "id": 5,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Yana Khuchuieva",
     "email": "yanakhuchuieva@gmail.com",
     "photo": "/static/alumni/photos/yana.jpg",
     "github": "https://github.com/elilovna",
     "linkedin": "https://www.linkedin.com/in/yana-khuchuieva-3a771a159/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "status": "employed",
     "company": "Peytz & Co",
     "graduationDate": "25-11-2018",
@@ -106,54 +140,94 @@
   },
   {
     "id": 6,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Samyar Modabber",
     "email": "samyar.modabber@gmail.com",
     "photo": "/static/alumni/photos/samyar.jpg",
     "github": "https://github.com/samyarmodabber",
     "linkedin": "https://www.linkedin.com/in/samyarmodabber/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "status": "looking for jobs",
     "graduationDate": "25-11-2018",
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 7,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Johanna May Baguio",
     "email": "johbaguio@gmail.com",
     "photo": "/static/alumni/photos/johanna.jpg",
     "github": "https://github.com/johbaguio",
     "pdfCV": "/static/alumni/cv/johanna.pdf",
     "linkedin": "https://www.linkedin.com/in/johanna-may-baguio-a8aa90174/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "status": "looking for jobs",
     "graduationDate": "02-06-2019",
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 8,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Neer Thapa",
     "email": "nirmala@surf.net.np",
     "photo": "/static/alumni/photos/neer.jpg",
     "github": "https://github.com/nirmalathapa",
     "onlineCV": "https://neer.netlify.com/",
     "linkedin": "https://www.linkedin.com/in/neerthapa/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "status": "employed",
     "graduationDate": "27-01-2019",
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 9,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Marco De Cara",
     "email": "marcodecara@gmail.com",
     "github": "https://github.com/marcodca",
     "onlineCV": "https://www.marcodecara.com/",
     "linkedin": "https://www.linkedin.com/in/marco-de-cara-1b409013a/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "company": "Mytheresa.com",
     "status": "employed",
     "graduationDate": "27-01-2019",
@@ -161,21 +235,33 @@
   },
   {
     "id": 10,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Asma Shaheen Chudhary",
     "email": "rababhina@hotmail.com  ",
     "photo": "/static/alumni/photos/asma.jpg",
     "github": "https://github.com/asma2018",
     "onlineCV": "https://asma2018.github.io/myportfolio/",
     "linkedin": "https://www.linkedin.com/in/asma-s-chudhary-4249a815/",
-    "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "Express.js",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "status": "looking for jobs",
     "graduationDate": "01-09-2018",
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 11,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Hakki SUMAN",
     "email": "hakkisuman@gmail.com  ",
     "photo": "/static/alumni/photos/hakki.jpg",
@@ -199,7 +285,9 @@
   },
   {
     "id": 12,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Mohamed Aldahoul",
     "company": "TooGoodToGo",
     "email": "mohamed.aldahoul@gmail.com",
@@ -228,7 +316,9 @@
   },
   {
     "id": 13,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Sana Hayat",
     "email": "sanahayyat116@live.com",
     "photo": "/static/alumni/photos/sana.png",
@@ -251,7 +341,9 @@
   },
   {
     "id": 14,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Natalia Moskaleva",
     "skills": [
       "JS",
@@ -274,7 +366,9 @@
   },
   {
     "id": 15,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Keerthika Devi Alampalli",
     "email": "keerthi1822@gmail.com",
     "photo": "/static/alumni/photos/Keerthi.jpg",
@@ -300,7 +394,9 @@
   },
   {
     "id": 16,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Marcellus Botsio",
     "email": "nabbotsio@yahoo.com",
     "photo": "/static/alumni/photos/marcellus.jpg",
@@ -322,7 +418,9 @@
   },
   {
     "id": 17,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Afshin Heidari Monfared",
     "email": "afshin.heidarimonfared@gmail.com",
     "photo": "/static/alumni/photos/afshin.jpg",
@@ -345,7 +443,9 @@
   },
   {
     "id": 18,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Kseniia Zar",
     "email": "kseniiazar@gmail.com",
     "photo": "/static/alumni/photos/kseniia.jpg",
@@ -370,7 +470,9 @@
   },
   {
     "id": 19,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Nayana Krishna Kamtekar",
     "email": "nayana.kamtekar@gmail.com",
     "photo": "/static/alumni/photos/nayana.jpg",
@@ -395,7 +497,9 @@
   },
   {
     "id": 20,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Fowad Latif",
     "email": "fawadik@yahoo.com",
     "photo": "/static/alumni/photos/fowad.jpg",
@@ -420,7 +524,9 @@
   },
   {
     "id": 21,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Rahim Ismaili",
     "email": "ismailirahim6@gmail.com",
     "photo": "/static/alumni/photos/rahim.jpeg",
@@ -446,39 +552,68 @@
   {
     "id": 22,
     "name": "Abdulrahman Ramadan",
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "status": "employed",
     "company": "Worthmore",
     "photo": "/static/team/abdulrahman.jpg",
     "linkedin": "https://www.linkedin.com/in/ramadan46/",
-    "skills": ["JS", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 23,
     "name": "Zoey Zou",
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "status": "employed",
     "company": "Karnov Group",
     "photo": "/static/team/zoey.jpg",
     "linkedin": "https://www.linkedin.com/in/zoeyzou2018/",
-    "skills": ["JS", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 24,
     "name": "Hala Kasim",
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "status": "employed",
     "company": "Kruso",
     "photo": "/static/team/hala.jpg",
     "linkedin": "https://www.linkedin.com/in/hala-qasim-009451155/",
-    "skills": ["JS", "MySQL", "React", "HTML", "CSS", "Node.js"],
+    "skills": [
+      "JS",
+      "MySQL",
+      "React",
+      "HTML",
+      "CSS",
+      "Node.js"
+    ],
     "lastUpdateDate": "01-09-2020"
   },
   {
     "id": 25,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Amjad Iftikhar",
     "email": "amjadiftikhar_99@hotmail.com",
     "photo": "/static/alumni/photos/amjad.jpg",
@@ -505,7 +640,9 @@
   },
   {
     "id": 26,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Lilla Kőrösi",
     "email": "korosililla@gmail.com",
     "photo": "/static/alumni/photos/lilla.jpg",
@@ -533,7 +670,9 @@
   },
   {
     "id": 27,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Axel Leonide Gassay Ekamba",
     "email": "axelleonide@gmail.com",
     "photo": "/static/alumni/photos/axel.jpg",
@@ -559,7 +698,9 @@
   },
   {
     "id": 28,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Ghofrane Ben Hmaid",
     "email": "ghofranebh90@gmail.com",
     "photo": "/static/alumni/photos/ghofrane.jpg",
@@ -589,7 +730,9 @@
   },
   {
     "id": 29,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Olha Afanasieva",
     "email": "afanasievaolja@gmail.com",
     "photo": "/static/alumni/photos/olha_afanasieva.jpg",
@@ -619,7 +762,9 @@
   },
   {
     "id": 30,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Sowmya Mannem",
     "email": "sowmyamannemr@gmail.com",
     "photo": "/static/alumni/photos/sowmya.jpg",
@@ -648,7 +793,9 @@
   },
   {
     "id": 31,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Miroslava Szabo",
     "email": "poradova.m@gmail.com",
     "photo": "/static/alumni/photos/szabo.jpg",
@@ -676,7 +823,9 @@
   },
   {
     "id": 32,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Rufaida Jumaa",
     "email": "eng.rufaidajumaa@gmail.com",
     "photo": "/static/alumni/photos/rufaida.jpg",
@@ -703,7 +852,9 @@
   },
   {
     "id": 33,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "John Alyazji",
     "email": "john.yazji@gmail.com",
     "photo": "/static/alumni/photos/John.jpeg",
@@ -729,7 +880,9 @@
   },
   {
     "id": 34,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Mohammad Alshoker",
     "email": "myshuker@gmail.com",
     "photo": "/static/alumni/photos/mohammad.jpg",
@@ -759,7 +912,9 @@
   },
   {
     "id": 35,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Amer Dahabi",
     "email": "aamerdahabi@gmail.com",
     "photo": "/static/alumni/photos/amer.png",
@@ -789,7 +944,9 @@
   },
   {
     "id": 36,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Mamatha Mereddy",
     "email": "mamathavangala1@gmail.com",
     "photo": "/static/alumni/photos/mamatha.jpg",
@@ -816,7 +973,9 @@
   },
   {
     "id": 37,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Tiago Gonçalves",
     "email": "tiago86g@gmail.com",
     "photo": "/static/alumni/photos/tiago.jpg",
@@ -847,7 +1006,9 @@
   },
   {
     "id": 38,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Svetlana Stosic Milosavljevic",
     "company": "GreenMobility",
     "email": "cecastosic@gmail.com",
@@ -880,7 +1041,9 @@
   },
   {
     "id": 39,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Nouha Najah",
     "email": "nuhanajah90@gmail.com",
     "photo": "/static/alumni/photos/nouha.jpg",
@@ -908,7 +1071,9 @@
   },
   {
     "id": 40,
-    "roles": ["alumni"],
+    "roles": [
+      "alumni"
+    ],
     "name": "Maher Hussain",
     "email": "maherhussain6@gmail.com",
     "photo": "/static/alumni/photos/maher.jpg",
