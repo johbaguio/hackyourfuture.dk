@@ -4,7 +4,7 @@ import ItemCard from '../team/item-card/item-card'
 import styles from './hire.scss'
 import id from 'uuid/v4'
 
-let filtereByDatedAlumni = alumniList.filter(alumni => {
+let filteredByDateAlumni = alumniList.filter(alumni => {
   // Added condition to filter profiles that are updated in the last 6 months
   const todayDate = new Date()
   const sixMonthsAgoDate = new Date(
@@ -23,7 +23,7 @@ class Hire extends React.Component {
     selectedSkills: [],
     selectedStatus: [],
     uniqueStatuses: [],
-    alumniList: filtereByDatedAlumni
+    alumniList: filteredByDateAlumni
   }
 
   componentDidMount() {
