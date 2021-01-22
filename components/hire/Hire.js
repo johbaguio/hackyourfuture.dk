@@ -50,8 +50,10 @@ class Hire extends React.Component {
     // by default: all alumni list
     let newAlumniList =
       this.state.selectedStatus[0] === 'looking for jobs'
-        ? alumniList.filter(alumni => alumni.status === 'looking for jobs')
-        : alumniList
+        ? filteredByDateAlumni.filter(
+            alumni => alumni.status === 'looking for jobs'
+          )
+        : filteredByDateAlumni
 
     // if any filter by skills button is clicked, then filter by skills
     if (this.state.selectedSkills.length !== 0) {
