@@ -4,20 +4,33 @@ import ItemCard from '../team/item-card/item-card'
 import styles from './hire.scss'
 import id from 'uuid/v4'
 
+let filteredByDateAlumni = alumniList.filter(alumni => {
+  // Added condition to filter profiles that are updated in the last 6 months
+  const todayDate = new Date()
+  const sixMonthsAgoDate = new Date(
+    todayDate.getTime() - 24 * 60 * 60 * 1000 * 182.5
+  )
+  const dateToArray = alumni.lastUpdateDate.split('-')
+  const formatedDateString = new Date(
+    `${dateToArray[2]}-${dateToArray[1]}-${dateToArray[0]}`
+  )
+  return formatedDateString > sixMonthsAgoDate
+})
+
 class Hire extends React.Component {
   state = {
     uniqueSkills: [],
     selectedSkills: [],
     selectedStatus: [],
     uniqueStatuses: [],
-    alumniList
+    alumniList: filteredByDateAlumni
   }
 
   componentDidMount() {
     let skills = []
     let statuses = []
 
-    this.state.alumniList.forEach(alumni => {
+    alumniList.forEach(alumni => {
       skills = [...skills, ...alumni.skills]
       statuses = [...statuses, alumni.status]
     })
@@ -34,16 +47,16 @@ class Hire extends React.Component {
   }
 
   doFiltering = () => {
-    console.log(this.state)
     // by default: all alumni list
-
     let newAlumniList =
       this.state.selectedStatus[0] === 'looking for jobs'
-        ? alumniList.filter(alumni => alumni.status === 'looking for jobs')
-        : alumniList
+        ? filteredByDateAlumni.filter(
+            alumni => alumni.status === 'looking for jobs'
+          )
+        : filteredByDateAlumni
 
+    // if any filter by skills button is clicked, then filter by skills
     if (this.state.selectedSkills.length !== 0) {
-      // if any filter by skills button is clicked, then filter by skills
       newAlumniList = newAlumniList.filter(alumni =>
         this.state.selectedSkills.every(s => alumni.skills.includes(s))
       )
@@ -87,7 +100,7 @@ class Hire extends React.Component {
       selectedStatus
     } = this.state
     return (
-      <>
+      <section className='hire'>
         <style jsx>{styles}</style>
         <div className='filters'>
           {/*FILTER BY SKILLS ---------------- */}
@@ -148,7 +161,7 @@ class Hire extends React.Component {
             </div>
           )}
         </div>
-      </>
+      </section>
     )
   }
 }
