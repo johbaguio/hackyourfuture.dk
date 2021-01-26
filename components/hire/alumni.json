@@ -936,5 +936,35 @@
     "status": "looking for jobs",
     "graduationDate": "06-01-2021",
     "lastUpdateDate": "18-01-2021"
+  },
+  {
+    "id": 41,
+    "roles": ["alumni"],
+    "name": "Elias Weldemichael Hussain",
+    "email": "holeselv17@gmail.com",
+    "photo": "/static/alumni/photos/elias.jpg",
+    "pdfCV": "/static/alumni/cv/Elias.pdf",
+    "github": "https://github.com/Elia-Git",
+    "linkedin": "https://www.linkedin.com/in/https://www.linkedin.com/in/elias-weldemichael-135b1010b//",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JS",
+      "React",
+      "Node.js",
+      "Storybook",
+      "Express.js",
+      "Knex.js",
+      "MySQL",
+      "Heroku",
+      "Postman",
+      "Swagger",
+      "Git",
+      "Github"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "06-01-2021",
+    "lastUpdateDate": "27-01-2021"
   }
 ]
