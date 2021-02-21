@@ -977,12 +977,16 @@
     "github": "https://github.com/Deepti-Dk",
     "linkedin": "https://www.linkedin.com/in/deeptishrma",
     "skills": [
-      "JS",
-      "React",
-      "Node.js",
-      "Asp.net MVC5",
+      "UX design",
       "HTML",
       "CSS",
+      "Bootstrap",
+      "JS",
+      "React",
+      "Asp.net MVC5",
+      "C#",
+      "Node.js",
+      "Microsoft Visual Studio 2019",
       "Storybook",
       "Express.js",
       "Knex.js",
@@ -991,11 +995,11 @@
       "Postman",
       "Swagger",
       "Git",
-      "Umbraco",
-      "WordPress"
+      "Github",
+      "Figma"
     ],
     "status": "looking for jobs",
     "graduationDate": "06-01-2021",
-    "lastUpdateDate": "18-01-2021"
+    "lastUpdateDate": "21-02-2021"
   }
 ]
