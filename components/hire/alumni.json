@@ -154,7 +154,6 @@
     "onlineCV": "https://www.marcodecara.com/",
     "linkedin": "https://www.linkedin.com/in/marco-de-cara-1b409013a/",
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
-    "company": "Mytheresa.com",
     "status": "employed",
     "graduationDate": "27-01-2019",
     "lastUpdateDate": "01-09-2020"
@@ -499,7 +498,7 @@
       "Firebase",
       "TypeScript"
     ],
-    "status": "looking for jobs",
+    "status": "employed",
     "graduationDate": "29-04-2020",
     "lastUpdateDate": "01-09-2020"
   },
@@ -527,7 +526,7 @@
       "Git",
       "Firebase"
     ],
-    "status": "looking for jobs",
+    "status": "employed",
     "graduationDate": "29-01-2020",
     "lastUpdateDate": "01-09-2020"
   },
