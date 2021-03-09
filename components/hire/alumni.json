@@ -154,7 +154,6 @@
     "onlineCV": "https://www.marcodecara.com/",
     "linkedin": "https://www.linkedin.com/in/marco-de-cara-1b409013a/",
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
-    "company": "Mytheresa.com",
     "status": "employed",
     "graduationDate": "27-01-2019",
     "lastUpdateDate": "01-09-2020"
@@ -169,7 +168,7 @@
     "onlineCV": "https://asma2018.github.io/myportfolio/",
     "linkedin": "https://www.linkedin.com/in/asma-s-chudhary-4249a815/",
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
-    "status": "looking for jobs",
+    "status": "employed",
     "graduationDate": "01-09-2018",
     "lastUpdateDate": "01-09-2020"
   },
@@ -193,7 +192,7 @@
       "Node.js",
       "UFT/QTP"
     ],
-    "status": "looking for jobs",
+    "status": "employed",
     "graduationDate": "11-08-2019",
     "lastUpdateDate": "01-09-2020"
   },
@@ -499,7 +498,7 @@
       "Firebase",
       "TypeScript"
     ],
-    "status": "looking for jobs",
+    "status": "employed",
     "graduationDate": "29-04-2020",
     "lastUpdateDate": "01-09-2020"
   },
@@ -527,7 +526,7 @@
       "Git",
       "Firebase"
     ],
-    "status": "looking for jobs",
+    "status": "employed",
     "graduationDate": "29-01-2020",
     "lastUpdateDate": "01-09-2020"
   },
@@ -697,7 +696,7 @@
       "Umbraco",
       "Bootstrap"
     ],
-    "status": "looking for jobs",
+    "status": "employed",
     "graduationDate": "14-01-2018",
     "lastUpdateDate": "01-09-2020"
   },
@@ -936,5 +935,91 @@
     "status": "looking for jobs",
     "graduationDate": "06-01-2021",
     "lastUpdateDate": "18-01-2021"
+  },
+  {
+    "id": 41,
+    "roles": ["alumni"],
+    "name": "Elias Weldemichael",
+    "email": "holeselv17@gmail.com",
+    "photo": "/static/alumni/photos/elias.jpg",
+    "pdfCV": "/static/alumni/cv/Elias.pdf",
+    "github": "https://github.com/Elia-Git",
+    "linkedin": "https://www.linkedin.com/in/elias-weldemichael-135b1010b//",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JS",
+      "React",
+      "Node.js",
+      "Storybook",
+      "Express.js",
+      "Knex.js",
+      "MySQL",
+      "Heroku",
+      "Postman",
+      "Swagger",
+      "Git"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "06-01-2021",
+    "lastUpdateDate": "23-02-2021"
+  },
+  {
+    "id": 43,
+    "roles": ["alumni"],
+    "name": "Deepti Sharma",
+    "email": "deepti.sharma@gmail.com",
+    "photo": "/static/alumni/photos/Deepti.jpg",
+    "pdfCV": "/static/alumni/cv/Deepti.pdf",
+    "github": "https://github.com/Deepti-Dk",
+    "linkedin": "https://www.linkedin.com/in/deeptishrma",
+    "skills": [
+      "UX design",
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JS",
+      "React",
+      "Asp.net MVC5",
+      "C#",
+      "Node.js",
+      "Microsoft Visual Studio 2019",
+      "Storybook",
+      "Express.js",
+      "Knex.js",
+      "MySQL",
+      "Heroku",
+      "Postman",
+      "Swagger",
+      "Git",
+      "Figma"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "06-01-2021",
+    "lastUpdateDate": "21-02-2021"
+  },
+  {
+    "id": 42,
+    "roles": ["alumni"],
+    "name": "Anil Kumar Mula",
+    "email": "anilreddymula@gmail.com",
+    "photo": "/static/alumni/photos/anil.png",
+    "pdfCV": "/static/alumni/cv/anil.pdf",
+    "github": "https://github.com/AnilMula",
+    "linkedin": "https://www.linkedin.com/in/anil-kumar-mula-56729475/",
+    "skills": [
+      "JavaScript",
+      "React",
+      "React Native",
+      "Node.js",
+      "HTML",
+      "CSS",
+      "MySQL",
+      "Mongo DB"
+    ],
+    "status": "looking for jobs",
+    "graduationDate": "06-01-2021",
+    "lastUpdateDate": "20-02-2021"
   }
 ]
