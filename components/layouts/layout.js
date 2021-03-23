@@ -165,6 +165,7 @@ export default ({ children }) => {
           background-color: #fff !important;
           overflow-x: hidden;
           -webkit-font-smoothing: antialiased;
+          padding-top: 64px;
         }
 
         img {
