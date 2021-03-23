@@ -12,10 +12,10 @@ import Mission from '../components/mission/mission'
 import Vision from '../components/vision/vision'
 import Press from '../components/press/press'
 import Values from '../components/values/values'
+import LGReport from '../components/lg-report/lg-report'
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { fetchPageContent } from '../contentful/contentful'
 import getEntryData from './../utils/utils'
-
 export default ({
   content,
   title,
@@ -54,6 +54,7 @@ export default ({
       <Vision title={visionTitle} content={visionContent} />
       <Mission title={missionTitle} content={missionContent} />
       <Values />
+      <LGReport />
     </Layout>
   )
 }
