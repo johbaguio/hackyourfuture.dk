@@ -7,7 +7,7 @@ export default function LGReport(props) {
             <div>
             <h3>LG Insight Evaluation report</h3>
             <p>The report about Hack Your Future is in Danish</p>
-            <a href="/static/lg-insight/Evalueringsrapport_HYF_LG Insight_22_03_21.pdf">Read the report</a>
+            <a href="/static/lg-insight/Evalueringsrapport_HYF_LG Insight_22_03_21.pdf" target="_blank">Read the report</a>
             </div>
         <style jsx>{`
             .lg-report-container {
