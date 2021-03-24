@@ -27,9 +27,6 @@ export default ({ title, supportOurWork, becomeCompanyMember }) => (
       <div className='donate'>
         {documentToReactComponents(becomeCompanyMember)}
       </div>
-      {/* "Gold partners" > 100.000 kr
-"Silver partners" > 30.000 kr
-"Bronze partners" < 30.000 kr */}
     </Content>
   </Layout>
 )
