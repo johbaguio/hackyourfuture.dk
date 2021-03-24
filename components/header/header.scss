@@ -4,6 +4,14 @@ header {
   height: 64px;
   box-shadow: 1px 1px 15px rgba(0,0,0,0.03);
 }
+header {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
 
 .backdrop {
   position: fixed;
