@@ -6,7 +6,7 @@
     "roleDescription": "Founder",
     "email": "christopher@hackyourfuture.dk",
     "linkedin": "https://www.linkedin.com/in/christopher-kl%C3%BCter-26794643/",
-    "photo": "/static/team/christopher.jpg"
+    "photo": "/static/team/christopher.png"
   },
   {
     "id": 2,
@@ -342,7 +342,7 @@
     "id": 40,
     "name": "Christopher Klüter",
     "roles": ["boardmember"],
-    "photo": "/static/team/christopher.jpg",
+    "photo": "/static/team/christopher.png",
     "roleDescription": "treasurer",
     "company": "HackYourFuture",
     "linkedin": "https://www.linkedin.com/in/christopher-klueter/"
