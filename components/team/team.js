@@ -59,27 +59,8 @@ export const MentorsTeam = () => {
   )
 }
 
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
-}
-
 export const Graduates = () => {
-  const highlightedAlumniInCompany = shuffle(alumniList.filter(alumni => alumni.company)).slice(0,5)
+  const highlightedAlumniInCompany = alumniList.filter((alumni) => alumni.company)
   return (
     <>
       <style jsx>{styles}</style>
@@ -87,6 +68,7 @@ export const Graduates = () => {
       <div className='team-members employed-alumni'>
         {highlightedAlumniInCompany
           .sort((a, b) => a.name.localeCompare(b.name))
+          .slice(0,5)
           .map(member => (
             <ItemCard item={member} key={member.id} showHiredOverlay={false} />
           ))}
