@@ -6,7 +6,7 @@
     "roleDescription": "Founder",
     "email": "christopher@hackyourfuture.dk",
     "linkedin": "https://www.linkedin.com/in/christopher-kl%C3%BCter-26794643/",
-    "photo": "/static/team/christopher.jpg"
+    "photo": "/static/team/christopher.png"
   },
   {
     "id": 2,
@@ -18,17 +18,6 @@
     "photo": "/static/team/marie.jpg"
   },
   {
-    "id": 3,
-    "name": "Benjamin Dalsgaard Hughes",
-    "roles": ["core"],
-    "roleDescription": "Educational Director",
-    "photo": "/static/team/benjamin.jpg",
-    "linkedin": "https://www.linkedin.com/in/benjamindalshughes/",
-    "github": "https://github.com/benna100/",
-    "email": "benjamin@hackyourfuture.dk",
-    "website": "https://benna100.github.io/portfolio/"
-  },
-  {
     "id": 22,
     "name": "Daniel Fernandes",
     "roles": ["core"],
@@ -37,6 +26,26 @@
     "linkedin": "https://www.linkedin.com/in/danielapfernandes/",
     "github": "https://github.com/dpfernandes/",
     "email": "daniel@hackyourfuture.dk"
+  },
+  {
+    "id": 3332,
+    "name": "Ditlev Tøjner",
+    "roles": ["core"],
+    "roleDescription": "Education Manager",
+    "photo": "/static/team/ditlev.jpg",
+    "linkedin": "https://www.linkedin.com/in/ditlev-t%C3%B8jner-145317158/",
+    "github": "https://github.com/ditlevHYF",
+    "email": "ditlev@hackyourfuture.dk"
+  },
+  {
+    "id": 3331,
+    "name": "Charlotte Garnier",
+    "roles": ["core"],
+    "roleDescription": "Project Assistant",
+    "photo": "/static/team/charlotte.png",
+    "linkedin": "https://www.linkedin.com/in/charlottegarnier/",
+    "github": "https://github.com/Charlotte-2905",
+    "email": "charlotte@hackyourfuture.dk"
   },
   {
     "id": 4,
@@ -333,7 +342,7 @@
     "id": 40,
     "name": "Christopher Klüter",
     "roles": ["boardmember"],
-    "photo": "/static/team/christopher.jpg",
+    "photo": "/static/team/christopher.png",
     "roleDescription": "treasurer",
     "company": "HackYourFuture",
     "linkedin": "https://www.linkedin.com/in/christopher-klueter/"
@@ -349,12 +358,13 @@
   },
   {
     "id": 42,
-    "name": "Mohamed Aldahoul",
+    "name": "Svetlana Stosic Milosavljevic",
     "roles": ["boardmember"],
-    "photo": "/static/alumni/photos/mohamed.jpg",
+    "photo": "/static/alumni/photos/svetlana.jpeg",
     "roleDescription": "student representative",
-    "company": "Too Good To Go",
-    "linkedin": "https://www.linkedin.com/in/mohamedaldahoul"
+    "company": "Green Mobility",
+    "linkedin": "https://www.linkedin.com/in/cecastosic/",
+    "github": "https://github.com/cecastosic"
   },
   {
     "id": 43,
