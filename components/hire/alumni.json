@@ -124,12 +124,12 @@
     "email": "johbaguio@gmail.com",
     "photo": "/static/alumni/photos/johanna.jpg",
     "github": "https://github.com/johbaguio",
-    "pdfCV": "/static/alumni/cv/johanna.pdf",
+    "pdfCV": "/static/alumni/cv/Johanna.pdf",
     "linkedin": "https://www.linkedin.com/in/johanna-may-baguio-a8aa90174/",
     "skills": ["JS", "Express.js", "MySQL", "React", "HTML", "CSS", "Node.js"],
     "status": "looking for jobs",
     "graduationDate": "02-06-2019",
-    "lastUpdateDate": "01-09-2020"
+    "lastUpdateDate": "07-04-2021"
   },
   {
     "id": 8,
